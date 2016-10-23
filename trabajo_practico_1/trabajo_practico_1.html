@@ -5,6 +5,9 @@
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
+ <!-- Libreria estandar de la w3 para incluir .html en otros html -->
+  <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
   <title>TP numero 1</title>
 
   <img src="/coderhouse/coderhouse_camada1487/img/icky.png">
@@ -14,8 +17,8 @@
   <!-- Navigation Var -->
   <nav id="nav_bar">
     <ul>
-      <li><a href="/HOME.html">HOME</a></li>
-      <li><a href="/CONTACT.html">CONTACT</a></li>
+      <li><a href="/trabajo_practico_1.html">HOME</a></li>
+      <li><a href="/contact.html">CONTACT</a></li>
     </ul>
   </nav>
   <!-- Navigation Var -->
@@ -27,11 +30,11 @@
 
   <main>
 
-    <!-- MARKESINA CON FOTOS -->
+    <!-- IMAGEN ENCABEZADO -->
     <div id="img_nav">
 
     </div>
-    <!-- MARKESINA CON FOTOS -->
+    <!-- IMAGEN ENCABEZADO -->
 
 
     <!-- Form Search -->
@@ -205,27 +208,14 @@
       <button type="button">Button</button>
     </div>
 
-
-    <div id="imp_text">
-      <h2>Hosting use 500,000 happy customers. Want to see services?</h2>
-    </div>
-
   </main>
 
 </body>
 
-
-<footer>
-  Copyright © 2016 Designed by ICKY!
-  <nav id="nav_footer">
-    <ul>
-      <li><a href="/HOME.html">HOME</a></li>
-      <li><a href="/CONTACT.html">CONTACT</a></li>
-    </ul>
-  </nav>
-</head>
-</footer>	
-
-
+<div w3-include-html="footer.html"></div> 
 
 </html>
+
+<script>
+w3IncludeHTML();
+</script>
