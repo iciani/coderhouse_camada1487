@@ -1,8 +1,71 @@
-li.service{
-	color: red;
-	border: 1px	solid;
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body,
+html{
+	font-family: 'Oswald', cursive;
 }
 
-#site-header{
-	color:blue;
+
+.header{
+	float: left;
+	position: fixed;
+	background-color: black;
+	display: inline;
+}
+
+#nav_bar{
+	display: inline;
+	position: fixed;
+}
+
+#nav_bar.ul{
+	display: inline;
+	list-style-type: none;
+	float: left;
+}
+
+#img_nav{
+	
+	background: url("../img/indexbanner-bg3.jpg");
+	background-size: 100%;
+	background-repeat: repeat-x;
+	height: 500px;
+	width: 100%;
+}
+
+#srch_form{
+
+}
+
+
+.price{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.oferta{
+	width: 100px;
+	height: 250px;
+	border: 2px solid;
+	padding: 10px;
+	margin: 10px;
+}
+
+.show_foto {
+	display: inline-block;
+	float: left;
+	margin: 30px;
+	
+}
+
+.centered{
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto 
+}
+
+#cellphone{
+	display: block;
+
 }
