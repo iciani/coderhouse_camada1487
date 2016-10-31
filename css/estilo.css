@@ -73,10 +73,35 @@ html{
 
 }
 
-#srch_form{
-
+.search_bar{
+	width: 70%;	
+	position: inline;
 }
 
+#srch_form{
+	padding: 0;
+	margin:0;
+	width: 70%;
+	height: 20px;
+}
+
+#srch_form #search{
+	height: 100%;
+	border: 0px;
+	padding: 0;
+	margin:0;
+	background-color: white;
+}
+
+#srch_form #submit{
+	height: 100%;
+	border: 0px;
+	padding: 0;
+	margin:0;
+	border-style:none;
+	background-color: #0C90F5;
+	float: right;
+}
 
 .price{
 	font-weight: bold;
@@ -91,10 +116,16 @@ html{
 	margin: 10px;
 }
 
+#title{
+	position:inline;
+
+}
+
+
 .show_foto {
-	display: inline-block;
+	display: inline;
 	float: left;
-	margin: 30px;
+	margin: 5px;
 	
 }
 
@@ -106,6 +137,5 @@ html{
 }
 
 #cellphone{
-	display: block;
 
 }
